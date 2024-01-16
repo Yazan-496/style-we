@@ -1,0 +1,12 @@
+{
+  "build": {
+    "env": {
+      "NODEJS_AWS_HANDLER_NAME": "handler",
+      "NODE_VERSION": "18.16.0"
+    }
+  },
+  "installCommand": "node -v && npm -v && npm install --force",
+  "buildCommand": "npm run build",
+  "framework": "nextjs",
+  "version": 2
+}
